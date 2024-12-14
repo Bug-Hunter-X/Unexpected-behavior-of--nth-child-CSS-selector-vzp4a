@@ -1,0 +1,6 @@
+/* bugSolution.css */
+/* Solution: Use more specific selectors, or avoid relying on :nth-child for dynamically changing elements.  JavaScript might be necessary for complex scenarios */
+#myElement ul li:nth-child(2) { /* More specific selectors are preferred when possible */
+  background-color: yellow;
+}
+/* Alternative:  Use JavaScript to apply styles based on the data instead of CSS selectors */
