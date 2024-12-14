@@ -1,0 +1,1 @@
+The CSS rule `:nth-child(n)` selector can produce unexpected results when combined with other selectors or when dealing with dynamically added or removed elements.  For example, the index of an element may change unexpectedly if preceding siblings are added or removed.
